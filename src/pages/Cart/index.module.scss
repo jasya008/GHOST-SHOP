@@ -1,0 +1,155 @@
+.title {
+  font-family: var(--font);
+  font-size: 50px;
+  font-weight: 700;
+
+  color: var(--black);
+
+  padding: 60px 0 20px 0;
+}
+
+.page {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+
+  padding-bottom: 90px;
+
+  .cart {
+    width: 100%;
+    height: fit-content;
+
+    border: var(--color-text) 1px solid;
+
+    padding: 20px;
+
+    .texts {
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+
+      .text {
+        font-family: var(--second-font);
+        font-weight: 300;
+      }
+    }
+
+    .product {
+      display: flex;
+      justify-content: row;
+      align-items: center;
+      gap: 45px;
+
+      padding: 20px 0;
+
+      .name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+
+        font-family: var(--second-font);
+        font-size: 15px;
+        font-weight: 300;
+        color: var(--blue);
+
+        width: 200px;
+      }
+
+      .image {
+        width: 70px;
+      }
+
+      .price {
+        font-family: var(--second-font);
+        font-weight: 300;
+        font-size: 15px;
+      }
+
+      .quantity {
+        display: flex;
+        flex-direction: row;
+
+        padding-left: 15%;
+
+        .product_btn {
+          padding: 5px 10px;
+
+          background-color: #fff;
+          border: #a7a4a4 1px solid;
+
+          font-size: 15px;
+
+          cursor: pointer;
+        }
+
+        .quant {
+          border: #a7a4a4 1px solid;
+          padding: 5px 25px;
+        }
+      }
+    }
+
+    .button {
+      padding: 15px 40px;
+
+      background-color: var(--blue);
+
+      border: none;
+
+      color: var(--white);
+
+      cursor: pointer;
+    }
+  }
+
+  .totals {
+    width: 650px;
+    height: fit-content;
+
+    border: var(--color-text) 1px solid;
+
+    padding: 20px;
+
+    .text_total {
+      font-family: var(--second-font);
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-between;
+
+      font-family: var(--second-font);
+      font-weight: 300;
+      font-size: 18px;
+
+      color: var(--blue);
+
+      padding-top: 30px;
+    }
+
+    .text_shiping {
+      font-family: var(--second-font);
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    .checkout {
+      padding: 20px 80px;
+
+      border: none;
+
+      background-color: var(--blue);
+
+      color: var(--white);
+
+      cursor: pointer;
+    }
+  }
+}
+
+hr{
+  margin: 10px 0 0 0 ;
+}

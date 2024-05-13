@@ -1,0 +1,64 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  margin: 120px 20px 80px;
+
+  .title {
+    font-family: var(--font);
+    font-size: 60px;
+    font-weight: 700;
+
+    color: var(--black);
+
+    text-align: center;
+  }
+
+
+  .all_shoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    width: 350px;
+    height: auto;
+
+    cursor: pointer;
+
+    .image {
+      width: 350px;
+    }
+
+    .name {
+      font-family: var(--second-font);
+      font-weight: 350;
+      font-size: 20px;
+
+      color: var(--black);
+    }
+
+    .price {
+      font-family: var(--second-font);
+      font-weight: 350;
+      font-size: 15px;
+
+      color: var(--main-color);
+    }
+  }
+  .card:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,88 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  height: fit-content;
+
+  background-color: #f3f4f6;
+
+  padding: 20px;
+
+  margin-top: auto;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    .part {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .logo {
+      font-family: var(--second-font);
+      font-size: 20px;
+
+      color: var(--black);
+    }
+
+    .title {
+      font-family: var(--second-font);
+      font-size: 17px;
+      font-weight: 600;
+
+      color: var(--black);
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+      cursor: pointer;
+    }
+
+    .input {
+      padding: 10px 160px 10px 10px;
+
+      background-color: var(--white);
+
+      font-family: var(--second-font);
+      font-size: 14px;
+      font-weight: 300;
+
+      border: none;
+      border-radius: 30px;
+    }
+    .button {
+      padding: 10px 0;
+
+      border: none;
+      border-radius: 30px;
+
+      background-color: rgba(28, 124, 249, 0.816);
+
+      font-family: var(--second-font);
+      font-size: 15px;
+
+      color: var(--white);
+
+      text-align: center;
+
+      cursor: pointer;
+    }
+  }
+}

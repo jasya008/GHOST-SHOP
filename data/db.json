@@ -1,0 +1,61 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Unisex Skate Shoes",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/01d5afdf8bdb5f68c3a3b102741d709d_Y6IFvMR2.webp",
+      "price": "99.00",
+      "quota": "Stay stylish and comfortable while skating with our high-quality unisex skate shoes.",
+      "category": "Athletic Shoes",
+      "description": "Cruise in style with our unisex skate shoes. Designed with superior traction and durability, these shoes provide optimal support and comfort during skating. The sleek design and versatile colors make these shoes perfect for any casual occasion."
+    },
+    {
+      "id": 2,
+      "name": "Men’s Basketball Shoes",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/ankle-boots-outfits-idea-lead-a14ac2b7b9bb43da8f176bafa81ed0db_Y6IFvMR2.webp",
+      "price": "109.00",
+      "quota": "Take your game to the next level with our high-performance basketball shoes for men.",
+      "category": "Athletic Shoes",
+      "description": "Dominate the court with our men’s basketball shoes. Designed with advanced traction technology and superior cushioning, these shoes provide optimal support and comfort on the court. The sleek design and versatile colors make these shoes perfect for both on and off the court."
+    },
+    {
+      "id": 3,
+      "name": "Men’s Running Shoes",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/42638100b4c7b43ec93b4526fa5207b9_Y6IFvMR2.webp",
+      "price": "188.00",
+      "quota": "Take your runs to the next level with our high-performance running shoes for men.",
+      "category": "Sport Shoes",
+      "description": "Experience exceptional comfort and support with our men’s running shoes. Designed for high-performance, these shoes feature advanced cushioning technology and breathable materials to keep you comfortable during your workout. The sleek design and versatile colors make these shoes perfect for any athletic activity or casual wear."
+    },
+    {
+      "id": 4,
+      "name": "Unisex Slip-On Sneakers",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/960x0_Y6IFvMR2.webp",
+      "price": "189.00",
+      "quota": "Stay comfortable and stylish with our classic slip-on sneakers for both men and women.",
+      "category": "Slip-Ons",
+      "description": "Slip into style and comfort with our unisex slip-on sneakers. With a classic design and versatile colors, these shoes are perfect for any occasion. The cushioned footbed ensures all-day comfort, while the slip-on design provides easy wear and convenience."
+    },
+    {
+      "id": 5,
+      "name": "Women’s High Top Sneakers",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/1024x1024-Men-Executive-Chestnut-052821-3.4_Y6IFvMR2.webp",
+      "price": "120.00",
+      "quota": "Stay stylish and comfortable with our trendy high top sneakers for women.",
+      "category": "High Tops",
+      "description": "Elevate your sneaker game with our women’s high top sneakers. Designed with a trendy and sleek silhouette, these sneakers feature a padded footbed for all-day comfort. Whether you’re dressing up or down, these shoes are the perfect choice for a stylish and comfortable look."
+    },
+    {
+      "id": 6,
+      "name": "Women’s Running Shoes",
+      "image": "https://10web-site.ai/17/wp-content/uploads/sites/19/2024/04/S9a94460ecdfe44e4a650e4b6ce58e112g.jpg_640x640Q90.jpg__Y6IFvMR2.webp",
+      "price": "189.00",
+      "quota": "Achieve your fitness goals in style with our high-performance running shoes for women.",
+      "category": "Athletic Shoes",
+      "description": "Stay comfortable and stylish with our women’s running shoes. These shoes are designed with advanced cushioning technology and breathable materials to keep you comfortable during your workout. The sleek design and versatile colors make these shoes perfect for any athletic activity or casual wear."
+    }
+  ],
+  "orders":[
+    
+  ]
+}
