@@ -5,6 +5,7 @@ import { Shoes } from "../../components/Shoes/Shoes";
 
 export const AllShoes = () => {
   const { data, setData } = GetContex();
+
   return (
     <div className={s.AllShoes}>
       <h1 className={s.title}>Shop all</h1>

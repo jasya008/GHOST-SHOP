@@ -9,12 +9,16 @@ export const Shoe = () => {
 
   const { id } = useParams();
 
-  const API_URL = "http://localhost:4000/sneakers";
+  const API_URL = `http://localhost:4000/sneakers/${id}`;
 
   const getDataShoes = async () => {
     try {
-      const { data } = await axios(`${API_URL}/${id}`);
-      setDataShoes(Array.isArray(data) ? data : [data]); 
+      const { data } = await axios.get(API_URL);
+      if (Array.isArray(data)) {
+        setDataShoes(data);
+      } else {
+        setDataShoes([data]);
+      }
     } catch (error) {
       setError(error.message);
     }
@@ -28,8 +32,10 @@ export const Shoe = () => {
 
   return (
     <>
-      {Array.isArray(dataShoes) &&
-        dataShoes.map((data) => <InfoShoes key={data.id} data={data} />)}
+      {error && <p>Error: {error}</p>}
+      {dataShoes.map((data) => (
+        <InfoShoes key={data.id} data={data} />
+      ))}
     </>
   );
 };
