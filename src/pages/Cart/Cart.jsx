@@ -4,6 +4,7 @@ import s from "./index.module.scss";
 import { Container } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const Cart = () => {
   const {
@@ -91,7 +92,9 @@ export const Cart = () => {
             Total <span>${totalWithShipping}.00</span>
           </p>
 
-          <button className={s.checkout}>PROCEED CHECKOUT</button>
+          <Link to="/registaration">
+            <button className={s.checkout}>PROCEED CHECKOUT</button>
+          </Link>
         </div>
       </div>
     </Container>

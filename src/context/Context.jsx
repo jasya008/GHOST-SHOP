@@ -5,6 +5,9 @@ const initContext = createContext();
 
 export const Context = ({ children }) => {
   const [data, setData] = useState([]);
+  const [user, setUser] = useState({
+    email: "",
+  });
 
   const API_URL = "http://localhost:4000/sneakers";
   const GetData = async () => {
@@ -17,14 +20,19 @@ export const Context = ({ children }) => {
   };
 
   useEffect(() => {
+    if (localStorage.getItem("user") !== null) {
+      setUser(JSON.parse(localStorage.getItem("user")));
+    }
     GetData();
-  }, []);
+  }, [user]);
 
   return (
     <initContext.Provider
       value={{
         data,
         setData,
+        user,
+        setUser,
       }}
     >
       {children}

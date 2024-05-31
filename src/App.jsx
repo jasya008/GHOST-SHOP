@@ -3,6 +3,8 @@ import { Layouts } from "./components/Layouts/Layouts";
 import { Home } from "./pages/Home";
 import { routes } from "./routes";
 import { CartProvider } from "react-use-cart";
+// import { ToastContainer } from "react-toastify";
+// import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const setroutes = () =>
@@ -20,6 +22,7 @@ function App() {
           </Route>
         </Routes>
       </CartProvider>
+      {/* <ToastContainer />   */}
     </div>
   );
 }

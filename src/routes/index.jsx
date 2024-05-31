@@ -1,5 +1,6 @@
 import { AllShoes } from "../pages/AllShoes";
 import { AthleticShoes } from "../pages/AthleticShoes/AthleticShoes";
+import { Registr } from "../pages/Authorisation/Registr";
 import { Cart } from "../pages/Cart/Cart";
 import { HighTopsShoes } from "../pages/HighTops/HighTops";
 import { Shoe } from "../pages/Shoe/Shoe";
@@ -14,6 +15,5 @@ export const routes = [
   { id: "SlipOns-page", path: "/SlipOnsShoes", element: <SlipOnsShoes /> },
   { id: "HighTopsShoes-page", path: "/HighTopsShoes", element: <HighTopsShoes /> },
   { id: "Cart-page", path: "/Cart", element: <Cart /> },
-
-
+  { id: "Registr", path: "/registaration", element: <Registr /> },
 ];
