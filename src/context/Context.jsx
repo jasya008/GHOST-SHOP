@@ -20,11 +20,11 @@ export const Context = ({ children }) => {
   };
 
   useEffect(() => {
+    // GetData();
     if (localStorage.getItem("user") !== null) {
       setUser(JSON.parse(localStorage.getItem("user")));
     }
-    GetData();
-  }, [user]);
+  }, []);
 
   return (
     <initContext.Provider
